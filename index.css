@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.body {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  width: 50%;
+  height: 30%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#guess {
+  height: 15%;
+  padding: 1vw 1vw;
+  border: solid black 1.5px;
+  border-radius: 1vh;
+  transition: border-color 0.5s;
+}
+
+#anagramm-text {
+  font-size: 2rem;
+}
+
+#anagramm-label {
+  font-size: 1rem;
+}
+
+.button-container {
+  width: 50%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button {
+  height: 60%;
+  padding: 3vh 3vw;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  border: solid black 1.5px;
+  border-radius: 1vh;
+  display: inline-flex;
+  align-items: center;
+}

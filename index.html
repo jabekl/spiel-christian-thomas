@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Spiel</title>
 </head>
 <body>
-    <h1 id="spiel-name">Das Anagram Spiel</h1>
+    <header class="header">
+        <h1 id="spiel-name">Das Anagramm Spiel</h1>
+    </header>
+    <div class="main">
+        <div class="anagramm">
+            <p id="anagramm-label"> Anagramm: </p>
+            <p id="anagramm-text">Hallolo</p>
+        </div>
+        <div class="input-container">
+            <p>Was ist das richtige Wort?</p>
+            <input type="text" id="guess">
+        </div>
+        <div class="button-container">
+            <button id="tipp" class="button">Tipp</button>
+            <button id="submit" class="button">Abschicken</button>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
