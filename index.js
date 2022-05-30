@@ -13,6 +13,18 @@ const data = [
     {
         "correct" : "Himbeere",
         "anagramm" : "Erbeheim"
+    },
+    {
+        "correct" : "Italien",
+        "anagramm" : "Aletini"
+    },
+    {
+        "correct" : "Lasagne",
+        "anagramm" : "Sagenal"
+    },
+    {
+        "correct" : "Paprika",
+        "anagramm" : "Karippa"
     }
 ]
 
